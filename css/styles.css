@@ -1,0 +1,26 @@
+#walruspic {
+  width: 400px;
+}
+
+#clickhide {
+  display: none;
+}
+
+#clickhide2 {
+  display: none;
+}
+
+#fade-in {
+  display: none;
+}
+
+
+.clickable {
+  color: blue;
+  font-weight: bold;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+  cursor: alias;
+}
