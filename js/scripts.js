@@ -14,12 +14,12 @@ $(document).ready(function() {
 // orca.html jquey
 
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#clickshow").toggle();
-    $("#clickhide").toggle();
+  $("#orca1").click(function() {
+    $(".orcafly").fadeIn();
+    // $("#clickhide").toggle();
   });
-  $(".txtshow").click(function() {
-    $("#fade-in").fadeIn();
-    $("#regularetext").hide();
-  });
+  // $(".txtshow").click(function() {
+  //   $("#fade-in").fadeIn();
+  //   $("#regularetext").hide();
+  // });
 });

@@ -15,6 +15,15 @@
   width: 500px;
 }
 
+#orca1 {
+  color: blue;
+  font-weight: bolder;
+}
+
+#orca1:hover {
+  text-decoration: line-through;
+  cursor: cell;
+}
 
 .clickable {
   color: blue;
@@ -24,4 +33,21 @@
 .clickable:hover {
   text-decoration: underline;
   cursor: alias;
+}
+
+.orcafly {
+  display: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.linktext {
+  color: white;
 }
