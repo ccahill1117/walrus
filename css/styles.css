@@ -24,6 +24,18 @@
   text-decoration: line-through;
   cursor: cell;
 }
+.buttons {
+  text-align: right
+}
+.dark-background {
+  color: white;
+  background: black;
+}
+.light-background {
+  color: black;
+  background: white;
+}
+
 
 .green-background {
   background-color: green;
