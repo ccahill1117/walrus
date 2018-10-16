@@ -9,11 +9,11 @@ $(document).ready(function() {
     $("#fade-in").fadeIn();
     $("#regularetext").hide();
   });
-});
+// });
 
 // orca.html jquey
 
-$(document).ready(function() {
+// $(document).ready(function() {
   $("#orca1").click(function() {
     $(".orcafly").fadeIn();
     // $("#clickhide").toggle();
