@@ -15,11 +15,41 @@ $(document).ready(function() {
 
 // $(document).ready(function() {
   $("#orca1").click(function() {
-    $(".orcafly").fadeIn();
+    $(".orcafly").slideDown();
     // $("#clickhide").toggle();
   });
   // $(".txtshow").click(function() {
   //   $("#fade-in").fadeIn();
   //   $("#regularetext").hide();
   // });
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
+
+  $("button#yellow").click(function() {
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
+  });
+
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
+  });
+
+  $("button#greenf").click(function() {
+    $("footer").removeClass();
+    $("footer").addClass("green-background");
+  });
+
+  $("button#yellowf").click(function() {
+    $("footer").removeClass();
+    $("footer").addClass("yellow-background");
+  });
+
+  $("button#redf").click(function() {
+    $("footer").removeClass();
+    $("footer").addClass("red-background");
+  });
+
 });

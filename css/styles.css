@@ -25,6 +25,18 @@
   cursor: cell;
 }
 
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+
 .clickable {
   color: blue;
   font-weight: bold;
@@ -43,6 +55,7 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
+  width: 100%;
   text-align: center;
   color: white;
   background-color: black;
