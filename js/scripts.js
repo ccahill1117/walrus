@@ -9,13 +9,27 @@ $(document).ready(function() {
     $("#fade-in").fadeIn();
     $("#regularetext").hide();
   });
+
+// CLICK function to hide orcaIMG
+
+  // $("#orcaimg").click(function() {
+  //   $(".orcafly").hide();
+  //
+  // });
+
+
+
+
 // });
 
 // orca.html jquey
 
 // $(document).ready(function() {
+
+// CLICK function to TOGGLE orcaIMG
+
   $("#orca1").click(function() {
-    $(".orcafly").slideDown();
+    $(".orcafly").toggle();
     // $("#clickhide").toggle();
   });
   // $(".txtshow").click(function() {
